@@ -18,7 +18,7 @@ const CategoryDetails = () => {
             <img className='m-auto pt-20 pb-5' src={strCategoryThumb} alt="" />
             <p>id: {idCategory}</p>
             <h2>Name: {strCategory}</h2>
-            <p>detais: {strCategoryDescription}</p>
+            <p>details: {strCategoryDescription}</p>
             <button onClick={handleBack}>Go back</button>
         </div>
     );

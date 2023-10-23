@@ -12,7 +12,7 @@ const Category = ({ category }) => {
     }
 
     return (
-        <div>
+        <div className='border-2 rounded p-5'>
             <img src={strCategoryThumb} alt="" />
             <h3>id: {idCategory}</h3>
             <h3>Name: {strCategory}</h3>
